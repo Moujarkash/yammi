@@ -5,7 +5,7 @@ import 'package:yammi/presentation/pages/restaurants_page.dart';
 import 'package:yammi/presentation/pages/sign_in_page.dart';
 import 'package:yammi/presentation/pages/splash_page.dart';
 
-@MaterialAutoRouter(  
+@CupertinoAutoRouter(  
   routes: <AutoRoute>[  
     AutoRoute(page: SplashPage, initial: true),
     AutoRoute(page: SignInPage),

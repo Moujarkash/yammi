@@ -20,28 +20,28 @@ class AppRouter extends _i1.RootStackRouter {
 
   @override
   final Map<String, _i1.PageFactory> pagesMap = {
-    SplashPageRoute.name: (routeData) => _i1.MaterialPageX<dynamic>(
+    SplashPageRoute.name: (routeData) => _i1.CupertinoPageX<dynamic>(
         routeData: routeData,
         builder: (_) {
           return const _i3.SplashPage();
         }),
-    SignInPageRoute.name: (routeData) => _i1.MaterialPageX<dynamic>(
+    SignInPageRoute.name: (routeData) => _i1.CupertinoPageX<dynamic>(
         routeData: routeData,
         builder: (_) {
           return const _i4.SignInPage();
         }),
-    ConfirmPhonePageRoute.name: (routeData) => _i1.MaterialPageX<dynamic>(
+    ConfirmPhonePageRoute.name: (routeData) => _i1.CupertinoPageX<dynamic>(
         routeData: routeData,
         builder: (data) {
           final args = data.argsAs<ConfirmPhonePageRouteArgs>();
           return _i5.ConfirmPhonePage(args.phoneNumber, key: args.key);
         }),
-    RestaurantsPageRoute.name: (routeData) => _i1.MaterialPageX<dynamic>(
+    RestaurantsPageRoute.name: (routeData) => _i1.CupertinoPageX<dynamic>(
         routeData: routeData,
         builder: (_) {
           return const _i6.RestaurantsPage();
         }),
-    RestaurantDetailsPageRoute.name: (routeData) => _i1.MaterialPageX<dynamic>(
+    RestaurantDetailsPageRoute.name: (routeData) => _i1.CupertinoPageX<dynamic>(
         routeData: routeData,
         builder: (data) {
           final args = data.argsAs<RestaurantDetailsPageRouteArgs>();
