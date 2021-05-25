@@ -1,16 +1,29 @@
-# yammi
+# Yammi
 
-A new Flutter project.
+A Flutter Restaurants project
 
-## Getting Started
+### Enviroment
 
-This project is a starting point for a Flutter application.
+This project is runable with flutter SDK 2.2
 
-A few resources to get you started if this is your first Flutter project:
+### Structure
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The app is using the bloc as state management and following this structure
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+UI -> Bloc -> repository -> datasources
+
+### Libs
+
+flutter_bloc (Bloc)
+
+get_it + injectable (Dependency Injecation)
+
+shared_preferences (Local Cache)
+
+retrofit (Network) 
+
+mocktail (Testing)
+
+### Notes
+
+The app has unit test classes but not all the app is tested
